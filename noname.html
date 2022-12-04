@@ -18,7 +18,37 @@
         <main>
             <p>This is a site about three awesome lucky dogs!</p>
         </main>
-        <img src="/bank-robbery-1.jpg" alt="Should be a pic here">
+        <form>
+            <label for="firstname">What is your name?</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Write your name here"/>
+
+            <label for="message">text something: </label>
+            <textarea cols="30" rows="3" name="massage" id="message" placeholder="Write your message for me here"></textarea>
+            <button type="submit">Send message</button> 
+
+
+
+        </form><br>
+        <form>
+            <label for="dogs_ranking">Which dog is most beautifull?</label><br>
+            <label for="biscuit">Biscuit</label>
+            <input name="dogs_ranking" id="biscuit" type="radio">
+            <label for="chocolate">Chocolate</label>
+            <input name="dogs_ranking" id="chocolate" type="radio">
+            <label for="sheep">Sheep</label>
+            <input name="dogs_ranking" id="sheep" type="radio">
+            <button type="submit">Vote</button>
+        </form>
+        <form>
+            <label for="fav_dog"> Choose your fav dog</label>
+            <select name="fav_dog">
+                <option value="Biscuit">Biscuit</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Sheep" selected="selected">Sheep</option>
+            </select>
+            <button type="submit">Vote</button>
+        </form>
+        <img src="/bank-robbery-1.jpg" alt="Should be a pic here" width="630px">
         <ol>
             <h3>Block elements:</h3>
             <li>address, article, aside, blockquote, canvas, dd</li>
