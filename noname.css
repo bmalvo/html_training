@@ -20,3 +20,16 @@ body{
 a {
     text-decoration: none;
 }
+
+.github:link, .github:visited {
+    background-color: aqua;
+    color:aliceblue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.github:hover, .github:active {
+    background-color: blue;
+}
