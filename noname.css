@@ -33,3 +33,15 @@ a {
 .github:hover, .github:active {
     background-color: blue;
 }
+
+.sheep {
+    float: left;
+}
+
+.chocolate {
+    float:right;
+}
+
+.biscuit {
+    float:left;
+}
