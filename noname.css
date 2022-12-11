@@ -37,6 +37,12 @@ a {
 .sheep {
     float: left;
 }
+.sheep > p:hover,
+.chocolate> p:hover,
+.biscuit> p:hover{
+    background-color:tomato;
+    color:white
+}
 
 .chocolate {
     float:right;
