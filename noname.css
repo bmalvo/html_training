@@ -2,6 +2,7 @@ p {
     color:rgb(17, 15, 15);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    /* column-count: 2; */
 
 }
 button {
@@ -34,7 +35,8 @@ a {
     background-color: blue;
 }
 
-.sheep {
+.sheep ,
+.biscuit{
     float: left;
 }
 .sheep > p:hover,
@@ -48,6 +50,3 @@ a {
     float:right;
 }
 
-.biscuit {
-    float:left;
-}
