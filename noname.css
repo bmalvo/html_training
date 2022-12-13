@@ -50,3 +50,8 @@ a {
     float:right;
 }
 
+.sheep-solo{
+    background-image: url('/sheep-solo.jpg');
+    background-attachment: fixed;
+    background-size:contain;
+}
