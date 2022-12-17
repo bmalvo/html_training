@@ -16,6 +16,9 @@ img:hover{
 
 body{
     background-color:aliceblue;
+    background-image: url('biscuit-and-chocolate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
@@ -51,7 +54,7 @@ a {
 }
 
 .sheep-solo{
-    background-image: url('/sheep-solo.jpg');
+    /* background-image: url('/sheep-solo.jpg'); */
     background-attachment: fixed;
     background-size:contain;
 }
