@@ -23,6 +23,23 @@ a {
     text-decoration: none;
 }
 
+table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: left;
+}
+
+th, 
+td {
+  border: 1px solid #aaa;
+  padding: 3px;
+}
+
+.table-footer {
+    font-size: .7em;
+    
+}
+
 .github:link, .github:visited {
     background-color: aqua;
     color:aliceblue;
