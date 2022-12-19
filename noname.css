@@ -31,8 +31,10 @@ table {
 
 th, 
 td {
-  border: 1px solid #aaa;
+  border: 1px solid white;
   padding: 3px;
+  background-color: rgb(154, 216, 245);
+  border-radius: 10px;
 }
 
 .table-footer {
