@@ -71,7 +71,7 @@ ul {
 .sheep > p:hover,
 .chocolate> p:hover,
 .biscuit> p:hover{
-    background-color:tomato;
+    background-color:rgb(37, 139, 143);
     color:white
 }
 
