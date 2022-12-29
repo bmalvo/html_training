@@ -31,13 +31,15 @@
     <main>
       <article id="sheep" class="sheep">
         <figure>
-        <img
-          class="sheep"
-          src="images/sheep-solo.jpg"
-          width="200"
-          alt="beautifull dog on the ground"
-        />
-        <figcaption><button type="button" onclick="alert('hau! hau!')">daj głos</button></figcaption>
+          <img
+            class="sheep"
+            src="images/sheep-solo.jpg"
+            width="200"
+            alt="beautifull dog on the ground"
+          />
+          <figcaption>
+            <button type="button" onclick="alert('hau! hau!')">daj głos</button>
+          </figcaption>
         </figure>
         <p class="sheep-solo">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quos
@@ -139,25 +141,25 @@
     <br />
     <fieldset>
       <legend>Dogs rankings</legend>
-    <form>
-      <label for="dogs_ranking">Which dog is most beautifull?</label><br />
-      <label for="biscuit">Biscuit</label>
-      <input name="dogs_ranking" id="biscuit" type="radio" />
-      <label for="chocolate">Chocolate</label>
-      <input name="dogs_ranking" id="chocolate" type="radio" />
-      <label for="sheep">Sheep</label>
-      <input name="dogs_ranking" id="sheep" type="radio" />
-      <button type="submit">Vote</button>
-    </form>
-    <form>
-      <label for="fav_dog"> Choose your fav dog</label>
-      <select name="fav_dog">
-        <option value="Biscuit">Biscuit</option>
-        <option value="Chocolate">Chocolate</option>
-        <option value="Sheep" selected="selected">Sheep</option>
-      </select>
-      <button type="submit">Vote</button>
-    </form>
+      <form>
+        <label for="dogs_ranking">Which dog is most beautifull?</label><br />
+        <label for="biscuit">Biscuit</label>
+        <input name="dogs_ranking" id="biscuit" type="radio" />
+        <label for="chocolate">Chocolate</label>
+        <input name="dogs_ranking" id="chocolate" type="radio" />
+        <label for="sheep">Sheep</label>
+        <input name="dogs_ranking" id="sheep" type="radio" />
+        <button type="submit">Vote</button>
+      </form>
+      <form>
+        <label for="fav_dog"> Choose your fav dog</label>
+        <select name="fav_dog">
+          <option value="Biscuit">Biscuit</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Sheep" selected="selected">Sheep</option>
+        </select>
+        <button type="submit">Vote</button>
+      </form>
     </fieldset>
     <br />
     <img
@@ -257,8 +259,13 @@
       <li>&#128515;</li>
       <li>&#128525;</li>
       <li>&#128151;</li>
-
     </ul>
+    <canvas
+      id="first-canvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #363636"
+    ></canvas>
 
     <p>
       <a href="https://google.com/" target="_blank"
