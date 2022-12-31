@@ -16,7 +16,11 @@ img:hover{
 
 body{
     background-color:aliceblue;
-
+    background-image: url('/dog.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 300px;
 }
 
 a {
@@ -49,6 +53,17 @@ ul {
 
 h1 {
     border: 2px solid dodgerblue;
+}
+
+.bg-example {
+    width: 320px;
+    height: 240px;
+    border: 1px solid dodgerblue;
+    background-image: url('/paper2.jpg');
+}
+
+.bg-example > p {
+    color:rgb(241, 241, 241)
 }
 
 .table-footer {
