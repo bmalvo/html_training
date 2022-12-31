@@ -52,7 +52,9 @@ ul {
 }
 
 h1 {
-    border: 2px solid dodgerblue;
+    border: 5px solid dodgerblue;
+    border-style: inset;
+    border-radius: 5px;
 }
 
 .bg-example {
