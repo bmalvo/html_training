@@ -57,6 +57,10 @@ h1 {
     border-style: inset;
     border-radius: 5px;
     padding: 2px 2px;
+    outline-style:  solid;
+    outline-width: 3px;
+    outline-color: seagreen;
+    outline-offset: 1px;
 }
 
 .bg-example {
