@@ -63,6 +63,7 @@ h1 {
     height: 240px;
     border: 1px solid dodgerblue;
     background-image: url('/paper2.jpg');
+    margin: auto;
 }
 
 .bg-example > p {
