@@ -61,6 +61,15 @@ h1 {
     outline-width: 3px;
     outline-color: seagreen;
     outline-offset: 1px;
+    text-shadow: 2px 2px 5px olivedrab;
+}
+
+.reverse {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
 }
 
 .bg-example {
@@ -72,7 +81,8 @@ h1 {
 }
 
 .bg-example > p {
-    color:rgb(241, 241, 241)
+    color:rgb(241, 241, 241);
+    text-align: justify;
 }
 
 .table-footer {
