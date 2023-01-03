@@ -61,6 +61,13 @@ td:hover, th:hover {
 
 ul {
     list-style-type:square;
+    background-color: coral;
+}
+
+ul li {
+    background-color: rgb(243, 164, 135);
+    margin: 5px;
+    padding: 3px;
 }
 
 h1 {
