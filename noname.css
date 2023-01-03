@@ -62,6 +62,8 @@ td:hover, th:hover {
 ul {
     list-style-type:square;
     background-color: coral;
+    max-width: 75%;
+    margin: auto;
 }
 
 ul li {
