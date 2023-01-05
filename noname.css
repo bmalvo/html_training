@@ -95,13 +95,14 @@ h1 {
 .bg-example {
     width: 320px;
     height: 240px;
-    border: 1px solid dodgerblue;
+    border: 1px solid #81befc;
     background-image: url('/paper2.jpg');
     margin: auto;
+    overflow: auto;
 }
 
 .bg-example > p {
-    color:rgb(241, 241, 241);
+    color:rgb(196, 190, 245);
     text-align: justify;
 }
 
