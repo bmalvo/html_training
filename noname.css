@@ -144,3 +144,19 @@ h1 {
     background-attachment: fixed;
     background-size:contain;
 }
+
+.dogsheep:hover {
+    font-size: 150%;
+    color: hotpink;
+}
+
+.dogchocolate:hover {
+    font-size: 150%;
+    color: chocolate;
+}
+
+.dogbiscuit:hover {
+    font-size: 150%;
+    color: bisque;
+    background-color: #a3a3a3;
+}
