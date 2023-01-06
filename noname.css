@@ -84,6 +84,14 @@ h1 {
     text-shadow: 2px 2px 5px olivedrab;
 }
 
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
 .reverse {
     direction: rtl;
     unicode-bidi: bidi-override;
