@@ -92,6 +92,30 @@ img:hover {
     opacity: 1.0;
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    margin:8px 0px;
+    box-sizing: border-box;
+    border: 2px solid deeppink;
+    border-radius: 10px;
+    background-image: url("/id_card.png");
+    background-size: 25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=text]:focus {
+    outline-color: hotpink;
+    background-color: rgb(19, 18, 18);
+    color: lime;
+}
+
+button[type=submit] {
+    cursor: pointer;
+}
+
 .reverse {
     direction: rtl;
     unicode-bidi: bidi-override;
