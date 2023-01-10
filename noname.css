@@ -100,7 +100,7 @@ input[type=text] {
     border: 2px solid deeppink;
     border-radius: 10px;
     background-image: url("/id_card.png");
-    background-size: 25px;
+    background-size: min(25px, 6%);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding-left: 40px;
