@@ -128,9 +128,11 @@ button[type=submit] {
     width: 320px;
     height: 240px;
     border: 1px solid #81befc;
+    border-radius: 15%;
     background-image: url('/paper2.jpg');
     margin: auto;
     overflow: auto;
+
 }
 
 .bg-example > p {
